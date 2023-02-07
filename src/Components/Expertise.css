@@ -1,0 +1,21 @@
+.expertise {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.skillsContainer {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.expertise > h1 {
+    font-size: 70px;
+}

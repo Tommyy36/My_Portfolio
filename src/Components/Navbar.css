@@ -1,0 +1,62 @@
+a:-webkit-any-link {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+
+.containerNav {
+    color: #fff; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.nameLogo {
+    width: 200px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+/* .nameLogo:hover {
+    width: 500px;
+    height: 300px;
+    transition: all 1s ease-in;
+    margin-left: 20px;
+} */
+
+.all-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.all-section2 {
+    position: fixed;
+    color: white;
+    right: 10;
+    background-color: rgba(26, 25, 0, 0.4);
+    width: 100%;
+    height: 70px;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    z-index: 1;
+}
+
+
+#allName { 
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 17px;
+    transition: 0.3 ease-in-out;
+}
+
+#allName:hover {
+    color: aqua;
+}
+
+.active {
+    color: aqua;
+}

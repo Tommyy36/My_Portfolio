@@ -1,0 +1,6 @@
+@media screen  and (max-width: 1024px){
+    .h1Header {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}

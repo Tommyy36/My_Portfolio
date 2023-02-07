@@ -1,0 +1,51 @@
+.skills {
+    display: flex;
+
+}
+
+.imgSkills {
+     border: 1px solid gray;
+    border-radius: 50%; 
+    width: 8rem;
+    height: 8rem; 
+}
+
+.imgSkills:hover {
+    filter: grayscale(100%);
+    transition: 300 ease-in-out;
+}
+
+.numberContainer {
+    position: absolute;
+    opacity: 0;
+    border: 1px solid gray;
+    border-radius: 50%; 
+    width: 7rem;
+    height: 7rem; 
+    cursor: pointer;
+}
+
+.numberContainer:hover {
+    opacity: 70%;
+    transition: 300 ease-in-out;
+    background-color: white;
+    z-index: 0;
+    border: 1px solid gray;
+    border-radius: 50%; 
+    width: 8rem;
+    height: 8rem;
+    cursor: pointer; 
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.number > p {
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
